@@ -10,8 +10,10 @@ if (direction==90 or direction==270)
 if (vspeed != 0 or hspeed != 0)
 	{
 	audio_play_sound(walle_driving, 1, 1)
+	image_speed = 1
 	}
 else
 	{
 	audio_stop_sound(walle_driving)
+	image_speed = 0
 	}

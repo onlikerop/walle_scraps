@@ -1,7 +1,7 @@
 /// @description Makes the fucker move
 if(keyboard_check(87))
 	{
-	//sprite_index=спрайт_вверх
+	sprite_index=spr_walle_up_no_bp
 	vspeed=-4
 	}
 if(keyboard_check(65))

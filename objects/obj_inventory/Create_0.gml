@@ -6,6 +6,7 @@ width = 8;
 height = 4;   
 for(i = 0; i < width; i += 1) {  
    for(j = 0; j < height; j += 1) {   
-      cell[i, j] = instance_create_depth(i * 32, j * 32, -2, obj_invcell);
+      global.inv[i, j] = 0;
+	  instance_create_depth(i * 32, j * 32, -2, obj_invcell);
    }
 }

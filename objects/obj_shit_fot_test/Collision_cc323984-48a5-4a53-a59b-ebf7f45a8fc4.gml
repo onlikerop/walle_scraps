@@ -2,9 +2,9 @@
 width = 8;  
 height = 4; 
 a = false
-for(i = 0; i < width; i += 1) 
+for(j = 0; j < height; j += 1) 
 	{
-	for(j = 0; j < height; j += 1) 
+	for(i = 0; i < width; i += 1)
 		{  
 		temp_var = global.inv[i, j]
 		if (temp_var[0] == "obj_shit_for_test")

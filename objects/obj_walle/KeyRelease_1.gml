@@ -1,5 +1,4 @@
 /// @description Makes the fucker stop
-/// @description Makes the fucker move
 if(87)
 	{
 	//sprite_index=спрайт_вверх

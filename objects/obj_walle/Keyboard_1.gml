@@ -1,17 +1,18 @@
 /// @description Makes the fucker move
+//Speeds are assigned with global.walle_speed ruled by Step event
 if(keyboard_check(87))
 	{
-	vspeed=-4
+	vspeed=-global.walle_speed
 	}
 if(keyboard_check(65))
 	{
-	hspeed=-4
+	hspeed=-global.walle_speed
 	}
 if(keyboard_check(68))
 	{
-	hspeed=4
+	hspeed=global.walle_speed
 	}
 if(keyboard_check(83))
 	{
-	vspeed=4
+	vspeed=global.walle_speed
 	}

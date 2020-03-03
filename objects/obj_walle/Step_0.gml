@@ -1,4 +1,4 @@
-/// @description Makes fucker leave a trail
+/// @description Makes fucker leave a trail, manages sprite change, makes fucker care about his parts and play sound
 
 if (vspeed!=0 or hspeed!=0)
 	{
@@ -32,3 +32,6 @@ else
 	audio_stop_sound(walle_driving)
 	image_speed = 0
 	}
+
+//Calculates WALLE's speed depending on how many tracks are present
+global.walle_speed = global.tracks_amount*2 + 1

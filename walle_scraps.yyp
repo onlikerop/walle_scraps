@@ -42,7 +42,7 @@
             "Key": "0413947d-b7cc-4de7-a882-44ee80a9098a",
             "Value": {
                 "id": "717eb9c8-50fc-4519-9c82-d7c788ee7d23",
-                "resourcePath": "objects\\obj_shit_fot_test_inventoral\\obj_shit_fot_test_inventoral.yy",
+                "resourcePath": "objects\\obj_shit_for_test_inventoral\\obj_shit_for_test_inventoral.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -322,7 +322,7 @@
             "Key": "b05520d4-3c5d-4d36-ae93-40eeec5e45cf",
             "Value": {
                 "id": "7ca26825-dc95-4893-98b1-68f64b309d3d",
-                "resourcePath": "objects\\obj_shit_fot_test\\obj_shit_fot_test.yy",
+                "resourcePath": "objects\\obj_shit_for_test\\obj_shit_for_test.yy",
                 "resourceType": "GMObject"
             }
         },

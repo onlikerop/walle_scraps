@@ -8,3 +8,5 @@ global.hands_amount=2
 global.tracks_amount=2
 global.walle_speed=4
 global.dir_last = 0
+global.is_item_carried = false
+global.item_carried_type = "none"

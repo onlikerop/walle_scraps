@@ -10,4 +10,3 @@ global.walle_speed=4
 global.dir_last = 0
 global.is_item_carried = false
 global.item_carried_type = "none"
-global.item_carried_pic = "none"

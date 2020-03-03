@@ -5,8 +5,9 @@ if (temp_var[0]=="none" or temp_var[0]==global.item_carried_type) and global.ite
 {
 	temp_var[0]=global.item_carried_type 
 	temp_var[1]+=1
+	if temp_var[2] == "none"{temp_var[2] = instance_create_depth(x+1, y+1, -3, global.item_carried_type)}
 	global.inv[x/32, y/32] = temp_var
-	instance_create_depth(x+1, y+1, -3, global.item_carried_type)
+	
 }
 global.is_item_carried = false
 global.item_carried_type = "none"

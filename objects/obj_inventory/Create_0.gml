@@ -8,7 +8,7 @@ for(i = 0; i < width; i += 1) {
    for(j = 0; j < height; j += 1) {
 	  cell[0] = "none"; // Присваиваем тип "none" ячейке, т.к. там ничего не лежит
 	  cell[1] = 0; // Присваиваем количество предметов = 0
-	  cell[2] = pointer_null
+	  cell[2] = "none"
       global.inv[i, j] = cell;
 	  instance_create_depth(i * 32, j * 32, -2, obj_invcell);
    }

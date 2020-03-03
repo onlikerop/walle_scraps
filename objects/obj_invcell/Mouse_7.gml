@@ -1,4 +1,4 @@
-/// @description 
+/// @description Вложение предмета в ячуйку инвентаря
 image_index = 0
 temp_var = (global.inv[x/32, y/32])
 if (temp_var[0]=="none" or temp_var[0]==global.item_carried_type) and global.item_carried_type != "none"

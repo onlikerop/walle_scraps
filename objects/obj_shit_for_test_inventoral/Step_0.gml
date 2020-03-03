@@ -1,2 +1,2 @@
-/// @description Makes this shit sane visiblity as inventory
+/// @description Makes this shit same visiblity as inventory
 visible = obj_invcell.visible

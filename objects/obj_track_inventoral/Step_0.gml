@@ -1,6 +1,6 @@
 visible = obj_partcell.visible
 
-if part_hp!=0//Checks if the part is already destroyed
+if part_hp > 0//Checks if the part is already destroyed
 {
 	part_hp-=round( sqrt( power( abs(obj_walle.vspeed), 2) + power( abs(obj_walle.vspeed), 2) + 2 * power( abs(obj_walle.vspeed) + abs(obj_walle.hspeed), 1/3) ) / 5 );//Slowly (depends on HP given) destroys the part
 }

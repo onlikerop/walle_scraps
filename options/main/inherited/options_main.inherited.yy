@@ -4,8 +4,9 @@
     },
     "option_gameguid": "471aacaf-bc51-46d8-a036-c27eaab4b5b4",
     "option_game_speed": 60,
-    "option_lastchanged": "02 March 2020 22:02:08",
-    "option_author": "Z&Z Games"
+    "option_lastchanged": "04 March 2020 19:18:52",
+    "option_author": "Z&Z Games",
+    "option_sci_usesci": false
 }←1225f6b0-ac20-43bd-a82e-be73fa0b6f4f|{
     "targets": 461609314234257646
 }←7fa50043-cea6-4cd0-9521-a8ba8c6ea9f0|{

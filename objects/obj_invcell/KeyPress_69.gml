@@ -1,3 +1,3 @@
-/// @description Открытие инвентаря
+/// @description Insert description here
 visible=not visible
 	

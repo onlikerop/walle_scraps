@@ -1,4 +1,4 @@
-/// @description Помещение предмета с карты в инвентарь
+/// @description Insert description here
 width = 8;  
 height = 4; 
 a = false

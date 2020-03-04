@@ -11,7 +11,7 @@
     "option_windows_description_info": "Walle scraps",
     "option_windows_disable_sandbox": false,
     "option_windows_display_cursor": true,
-    "option_windows_display_name": "Made in GameMaker Studio 2",
+    "option_windows_display_name": "Walle scraps",
     "option_windows_enable_steam": false,
     "option_windows_executable_name": "${project_name}",
     "option_windows_icon": "${base_options_dir}\\windows\\icons\\icon.ico",
@@ -34,7 +34,7 @@
         "build": 0,
         "major": 0,
         "minor": 0,
-        "revision": 1
+        "revision": 2
     },
     "option_windows_vsync": false
 }

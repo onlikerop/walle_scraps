@@ -19,7 +19,7 @@ switch(global.dir_last)
 		case 0: sprite_index=spr_walle_right; break;
 		case 90: sprite_index=spr_walle_up_no_bp; break;
 		case 180: sprite_index=spr_walle_left; break;
-		case 270: //sprite_index=spr_walle_right; break;
+		case 270: //sprite_index=spr_walle_down; break;
 		}
 
 if (vspeed != 0 or hspeed != 0)
@@ -34,4 +34,4 @@ else
 	}
 
 //Calculates WALLE's speed depending on how many tracks are present
-global.walle_speed = global.tracks_amount*2 + 1
+global.walle_speed = global.tracks_amount * 1.5 + 1

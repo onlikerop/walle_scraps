@@ -9,11 +9,12 @@ if (temp_var[0]=="none" or temp_var[0]==global.item_carried_type) and global.ite
 	global.inv[x/32, y/32] = temp_var
 	
 }
+// Здесь я пытался сделать, чтобы если ячейка оказалась занята, то предмет, который ты взял, не пропадал, а возвращался в ту ячейку, откуда ты его взял. Пока работает криво
 else if global.item_carried_type != "none" and global.latest_cell_id != [-1, -1]
 {
 	temp_var = global.inv[global.latest_cell_id[0], global.latest_cell_id[1]]
 	if temp_var[0] == "none" {temp_var[0] = global.item_carried_type}
-	if temp_var[2] == "none" {temp_var[2] = instance_create_depth(global.latest_cell_id[0]*32+1, global.latest_cell_id[1]*32+1, -3, global.item_carried_type)}
+	if temp_var[2] == "none" {temp_var[0] = instance_create_depth(global.latest_cell_id[0]*32+1, global.latest_cell_id[1]*32+1, -3, global.item_carried_type)}
 	temp_var[1] += 1
 	global.inv[global.latest_cell_id[0], global.latest_cell_id[1]] = temp_var
 }

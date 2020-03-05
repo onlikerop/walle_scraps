@@ -1,4 +1,4 @@
-/// @descriptionCreates obj_inventory, also contains global vars
+/// @description Creates obj_inventory, also contains global vars
 instance_create_depth(400, 300, -1, obj_inventory)
 
 global.has_r_eye=true
@@ -10,3 +10,4 @@ global.walle_speed=4
 global.dir_last = 0
 global.is_item_carried = false
 global.item_carried_type = "none"
+global.latest_cell_id = [-1, -1]

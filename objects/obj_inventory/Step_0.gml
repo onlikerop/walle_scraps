@@ -13,3 +13,11 @@ for(i = 0; i < width; i += 1) {
 		}
    }
 }
+
+percent = global.charge_percent div 10000
+if (percent) < 10 and percent!=global.last_percent
+{
+		instance_destroy(instance_nearest(global.charge_ind[9-percent], 0, obj_charge_ind)) 
+		global.charge_ind[percent]=0
+		global.last_percent = percent
+}

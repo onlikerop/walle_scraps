@@ -26,6 +26,10 @@ if (vspeed != 0 or hspeed != 0)
 	{
 	audio_play_sound(walle_driving, 1, 1)
 	image_speed = 1
+	if global.charge_percent!=0
+		{
+		global.charge_percent-=30/(global.tracks_amount+1)
+		}
 	}
 else
 	{
@@ -35,3 +39,16 @@ else
 
 //Calculates WALLE's speed depending on how many tracks are present
 global.walle_speed = global.tracks_amount * 1.5 + 1
+
+if obj_battery.part_hp % 100000 !=0
+{
+	global.charge_percent = 100000 * (obj_battery.part_hp % 100000)
+}
+
+if (global.has_l_eye = false or global.has_r_eye = false) and !instance_exists(obj_eye_pizdec_const)
+{
+	instance_create_depth(0, 0, -10, obj_eye_pizdec_const)
+	instance_create_depth(0, 0, -11, obj_eye_pizdec_temp)
+}
+
+randomize()

@@ -17,4 +17,6 @@ global.is_item_carried = false
 global.item_carried_type = "none"
 global.latest_cell_id = [-1, -1]
 global.charge_percent = 100000
+global.max_charge_percent = 100000
 global.last_percent = global.charge_percent div 10000
+global.is_charging = false

@@ -1,5 +1,5 @@
 /// @description Creates obj_inventory, also contains global vars
-instance_create_depth(400, 300, -1, obj_inventory)
+instance_create_depth(400, 300, -1, obj_inventory) 
 
 global.has_r_eye=true
 global.has_l_eye=true
@@ -20,3 +20,5 @@ global.charge_percent = 100000
 global.max_charge_percent = 100000
 global.last_percent = global.charge_percent div 10000
 global.is_charging = false
+global.controls = [83, 68, 87, 65, 85, 75, 66, 70, 37, 39, 38, 40, 13, 17, 32, 52]
+global.control_group = 0

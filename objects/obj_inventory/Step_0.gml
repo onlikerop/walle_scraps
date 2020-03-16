@@ -21,9 +21,13 @@ for(i = 0; i < width; i += 1)
 }
 
 percent = global.charge_percent div 10000
-if (percent) < 10 and percent!=global.last_percent
+if (percent) < 10 and percent!=global.last_percent and !global.is_charging
 {
-		instance_destroy(instance_nearest(global.charge_ind[9-percent], 0, obj_charge_ind)) 
-		global.charge_ind[percent]=0
+		instance_destroy(instance_nearest(global.charge_ind[9-percent], 0, obj_charge_ind))
 		global.last_percent = percent
+}
+if global.is_charging and percent!=global.last_percent
+{
+	instance_create_depth(global.charge_ind[10-percent], 0, -3, obj_charge_ind)
+	global.last_percent = percent
 }

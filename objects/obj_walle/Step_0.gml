@@ -28,7 +28,7 @@ if (vspeed != 0 or hspeed != 0)
 	image_speed = 1
 	if global.charge_percent!=0
 	{
-		global.charge_percent-=30/(global.tracks_amount+1)
+		global.charge_percent-=30/(global.tracks_amount+1)*(1-(obj_wiring.part_hp/30000))*(1-(obj_engine.part_hp/20000))
 	}
 }
 else
@@ -53,8 +53,9 @@ if (global.has_l_eye = false or global.has_r_eye = false) and !instance_exists(o
 
 if global.has_solar_charger and global.has_battery and global.charge_percent<global.max_charge_percent-9 and global.is_charging 
 {
-	global.charge_percent += 10
+	global.charge_percent += round(10*(obj_solar_charger.part_hp/20000)*(obj_wiring.part_hp/30000))
 	obj_solar_charger.part_hp -=1
+	obj_wiring.part_hp -=1
 	obj_battery.last_charge_dmg += 3
 }
 

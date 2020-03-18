@@ -1,5 +1,4 @@
 /// @description Creates obj_inventory, also contains global vars
-instance_create_depth(400, 300, -1, obj_inventory) 
 
 ///A set of global variables to describe the current state of fucker
 global.has_r_eye=false
@@ -31,3 +30,5 @@ global.is_charging = false
 ///Variables linked to controls of fucker and their random change
 global.controls = [83, 68, 87, 65, 85, 75, 66, 70, 37, 39, 38, 40, 13, 17, 32, 52]
 global.control_group = 0
+
+instance_create_depth(400, 300, -1, obj_inventory) 

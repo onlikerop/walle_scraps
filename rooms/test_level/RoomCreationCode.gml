@@ -4,3 +4,4 @@ if !timeline_running
     timeline_running = true;
 	timeline_speed = 1;
     }
+	

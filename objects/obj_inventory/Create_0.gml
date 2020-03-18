@@ -16,7 +16,7 @@ for(i = 0; i < width; i += 1)
 
 //Lists of parts defined
 ext_parts_list = [obj_r_eye_inventoral, obj_l_eye_inventoral, obj_hand_inventoral, obj_hand_inventoral, obj_body_inventoral, obj_track_inventoral, obj_track_inventoral]
-int_parts_list = [obj_motherboard, obj_wiring, obj_battery, obj_solar_charger, obj_engine]
+int_parts_list = [obj_motherboard_inventoral, obj_wiring_inventoral, obj_battery_inventoral, obj_solar_charger_inventoral, obj_engine_inventoral]
 
 //Creates a row of 7 obj_partcell for l_eye, r_eye, l_hand, r_hand, body, r_track, l_track
 //and lower row for internal parts (the commented piece)

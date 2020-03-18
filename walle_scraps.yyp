@@ -463,6 +463,14 @@
             }
         },
         {
+            "Key": "8755cce1-4558-4840-b8f4-754cb66dba8a",
+            "Value": {
+                "id": "3f6a33a0-d1b2-4860-9199-3fabde6dea8f",
+                "resourcePath": "objects\\obj_body\\obj_body.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "8a51a319-1d8b-4aa0-9bc9-62f194a9bc8e",
             "Value": {
                 "id": "b129ea4c-6d52-409f-88ad-4c10f6e3a308",
@@ -487,6 +495,14 @@
             }
         },
         {
+            "Key": "8e17431f-9ba3-42bf-af61-b862d58f7fec",
+            "Value": {
+                "id": "0ef3a9a5-acb3-4dd2-b59b-384a8e5d5392",
+                "resourcePath": "objects\\obj_r_eye\\obj_r_eye.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "8fd8e6ef-3ea2-4a55-86cd-9e4d0d0c6563",
             "Value": {
                 "id": "680f4709-8f08-464b-b8a8-85ba631fa2bb",
@@ -506,7 +522,7 @@
             "Key": "9a016426-c4e5-493a-9e14-734de16fe5b9",
             "Value": {
                 "id": "a98e8670-df83-425f-9b0a-fcc56416e0a6",
-                "resourcePath": "objects\\obj_solar_charger\\obj_solar_charger.yy",
+                "resourcePath": "objects\\obj_solar_charger_inventoral\\obj_solar_charger_inventoral.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -559,10 +575,18 @@
             }
         },
         {
+            "Key": "aa8de5fb-d81b-4249-9f7c-06298814a325",
+            "Value": {
+                "id": "c8f7e518-9c6b-4830-b1db-4fcd9a3840a0",
+                "resourcePath": "objects\\obj_l_eye\\obj_l_eye.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "ad871df1-f36d-4a04-8166-a64d456f9536",
             "Value": {
                 "id": "5466604b-6cf6-45c6-9f7d-f5fa42805e2b",
-                "resourcePath": "objects\\obj_wiring\\obj_wiring.yy",
+                "resourcePath": "objects\\obj_wiring_inventoral\\obj_wiring_inventoral.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -698,7 +722,7 @@
             "Key": "d39cdcdb-9bfb-45a6-8458-2664ef7e6a11",
             "Value": {
                 "id": "e9db43e5-b85d-4e3c-b0dd-fcab3a4c1cc3",
-                "resourcePath": "objects\\obj_motherboard\\obj_motherboard.yy",
+                "resourcePath": "objects\\obj_motherboard_inventoral\\obj_motherboard_inventoral.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -775,6 +799,14 @@
             }
         },
         {
+            "Key": "e5c6f128-29c2-4fae-bb22-b78209f1fb55",
+            "Value": {
+                "id": "b6b62efd-9c1d-492c-9c48-9c280efff09d",
+                "resourcePath": "objects\\obj_track\\obj_track.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "e766bbad-3a28-46e6-8574-446b1524a870",
             "Value": {
                 "id": "55e828c3-4a90-4074-a49d-bbb374d094f7",
@@ -826,7 +858,7 @@
             "Key": "f2a03594-f1b8-476e-95d1-42b0e82c41c1",
             "Value": {
                 "id": "4b56984e-7790-4eb2-9d18-97d6dd68c1a3",
-                "resourcePath": "objects\\obj_battery\\obj_battery.yy",
+                "resourcePath": "objects\\obj_battery_inventoral\\obj_battery_inventoral.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -844,6 +876,14 @@
                 "id": "190a805d-363b-4142-8f63-c42ef51eeb83",
                 "resourcePath": "scripts\\game_pause\\game_pause.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "f52611c7-84cf-4446-b934-da8c25bdf6e3",
+            "Value": {
+                "id": "baa0dbd9-130f-4f5c-9dd9-6d0fdec0bb96",
+                "resourcePath": "objects\\obj_hand\\obj_hand.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -882,7 +922,7 @@
             "Key": "fa794199-da5a-493b-8882-012788d59c16",
             "Value": {
                 "id": "90922791-7e65-4c4c-82f6-c04fabce4e41",
-                "resourcePath": "objects\\obj_engine\\obj_engine.yy",
+                "resourcePath": "objects\\obj_engine_inventoral\\obj_engine_inventoral.yy",
                 "resourceType": "GMObject"
             }
         },

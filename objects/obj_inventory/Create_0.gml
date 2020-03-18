@@ -24,8 +24,8 @@ int_parts_list = [obj_motherboard_inventoral, obj_wiring_inventoral, obj_battery
 for(i = 0; i < 7; i ++) 
 {
 	  part_cell[0] = ext_parts_list[i]; //Each cell in row is defined py type of part that fits it
-	  part_cell[1] = 1;
-      global.ext_part_inv[i, 1] = part_cell;
+	  part_cell[1]=1
+      global.ext_part_inv[i] = part_cell;
 	  instance_create_depth((width+1)*32+i * 32, 0, -2, obj_partcell);
 	  instance_create_depth((width+1)*32+i * 32, 0, -3, ext_parts_list[i]);//As we do have those parts from beginning? I spawn them rightaway
 	  
@@ -34,7 +34,8 @@ for(i = 0; i < 7; i ++)
 for(j = 0; j < 5; j ++) 
 {
 	  part_cell[0] = int_parts_list[j];
-      global.int_part_inv[j, 1] = part_cell;
+	  part_cell[1]=1
+      global.int_part_inv[j] = part_cell;
 	  instance_create_depth((width+2)*32+j * 32, 32, -2, obj_partcell);
 	  instance_create_depth((width+2)*32+j * 32, 32, -3, int_parts_list[j]);
 	  

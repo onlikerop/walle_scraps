@@ -1,5 +1,4 @@
 /// @description Insert description here
-/// @description Insert description here
 if (random_range(0, 2)+global.hands_amount) >= 1.78356447
 {
 	width = 8;  

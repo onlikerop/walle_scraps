@@ -15,6 +15,9 @@ if part_hp!=0 and global.has_r_eye//Checks if the part is already destroyed
 }
 else//If it is destroyed, the instance is destroyed and global variable is changed to affect WALLE perfomance
 {
-	instance_destroy(self)
+	if part_hp <= 0
+	{
+		instance_destroy(self)
+	}
 	global.has_r_eye=false
 }

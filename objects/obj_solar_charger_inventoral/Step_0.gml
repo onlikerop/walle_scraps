@@ -11,6 +11,10 @@ else
 
 if part_hp==0 and global.has_solar_charger //Checks if the part is already destroyed
 {
-	instance_destroy(self)
+	
+	if part_hp <= 0
+	{
+		instance_destroy(self)
+	}
 	global.has_solar_charger=false
 }

@@ -15,7 +15,10 @@ if part_hp>0 and global.has_motherboard
 }
 else
 {
-	instance_destroy(self)
+	if part_hp <= 0
+	{
+		instance_destroy(self)
+	}
 	global.has_motherboard=false
 	global.control_group = 4*(round(irandom_range(0, 12)/4))
 }

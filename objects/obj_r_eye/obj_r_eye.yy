@@ -1,28 +1,18 @@
 {
-    "id": "9a016426-c4e5-493a-9e14-734de16fe5b9",
+    "id": "8e17431f-9ba3-42bf-af61-b862d58f7fec",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_solar_charger",
+    "name": "obj_r_eye",
     "eventList": [
         {
-            "id": "97e78429-3189-40a2-9293-70fae08cd96b",
+            "id": "0c585993-75d9-4cec-82ef-1aa15358f984",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "collisionObjectId": "e873422c-3520-4518-a075-48bb2171f27b",
             "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "9a016426-c4e5-493a-9e14-734de16fe5b9"
-        },
-        {
-            "id": "e145a9cf-f38e-4b65-8bd4-749b00805c7b",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "9a016426-c4e5-493a-9e14-734de16fe5b9"
+            "eventtype": 4,
+            "m_owner": "8e17431f-9ba3-42bf-af61-b862d58f7fec"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -42,7 +32,7 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "properties": null,
-    "solid": false,
-    "spriteId": "74737b60-df79-480b-b902-f4d2efab9925",
-    "visible": true
+    "solid": true,
+    "spriteId": "317ffbc5-c6ff-45a5-8a5e-4aec11ec0052",
+    "visible": false
 }
